@@ -1,0 +1,49 @@
+/* footer */
+.footer{
+    width: auto;
+    height: 498px;
+    background-color: #2C2C2C;
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 60px;
+    }
+}
+
+.footer__marca{
+    width: auto;
+    align-items: center;
+}
+.footer__marca-h2{
+    font-family: 'Orbitron';
+    font-size: 48px;
+    text-align: center;
+}
+.footer__redes{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+/* .footer__redes-caja {
+    
+} */
+.footer__redes-h3{
+    font-family: 'Poppins';
+    font-size: 16px;
+    display: inline;
+    
+}
+/* .footer__redes-img{
+} */
+/* footer */

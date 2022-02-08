@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Menu Hamburguesa */
+.menu-hamburguesa {
+    border: solid;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #141414;
+
+    display: none;
+}
+
+/* .menu-hamburguesa__container{
+    
+} */
+
+.img {
+    height: 80px;
+    width: auto;
+    
+}
+.menu-hamburguesa__x{
+    float: right;
+    padding: 10px;
+    height: 37px;
+    width: 37px;
+}
+.menu-hamburguesa__contenido{
+    font-size: 48px;
+    font-family: 'Monserrat';
+}
+
+.menu_hamburguesa__li{
+    text-align: center;
+    margin-bottom: 58px;
+    
+}
+/* Menu Hamburguesa */
+
+/* Bienvenida */
+.bienvenida {
+    width: 100%;
+    Height: 616px;
+    background-image: url('/img/oficina.png');
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+    
+    
+}
+
+.bienvenida__header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.bienvenida__header-logo {
+    font-size: 25px;
+    font-family: 'Orbitron';
+    width: 122px;
+}
+
+@media (min-width: 768px) {
+    .bienvenida__header-logo {
+        font-size: 48px;
+        
+    }
+}
+
+.bienvenida__header-menu {
+    width: 36px;
+    height: 36px;
+}
+
+@media (min-width: 768px) {
+    
+    .bienvenida__header-menu {
+        display: none;
+    }
+}
+
+.bienvenida__barra-lateral {
+    display: none;
+    height: 36px;
+    min-width: 451px;
+    width: auto;
+    margin-right: 50px;
+}
+
+@media (min-width: 768px ) {
+    
+    .bienvenida__barra-lateral {
+        display: inline;
+    }
+}
+
+.bienvenida__barra-lateral-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bienvenida__barra-lateral-li {
+    font-size: 24px;
+    font-family: 'Poppins';
+}
+
+.bienvenida__saludo {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+}
+
+.bienvenida__saludo-content {
+    text-align: center;
+}
+
+.bienvenida__saludo-content-h2 {
+    font-size: 48px;
+}
+
+.bienvenida__saludo-content-p {
+    font-size: 32px;
+}
+/* Bienvenida */
