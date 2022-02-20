@@ -4,8 +4,8 @@ function main() {
     const footerEl = document.querySelector(".componente_footer")
 
     mostrarHeader(headerEl)
-    mostrarForm(formEl)
     mostrarFooter(footerEl)
+    mostrarForm(formEl)
 }
 
 main()  

@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 @media (min-width: 768px) {
@@ -27,6 +27,9 @@
     font-family: 'Orbitron';
     font-size: 48px;
     text-align: center;
+    text-decoration: none;
+    text-decoration: inherit;
+    color: inherit;
 }
 .footer__redes{
     width: auto;

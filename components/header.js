@@ -11,29 +11,31 @@ function mostrarHeader(params) {
                 <img class="menu-hamburguesa__x" src='img/X.png'>
             </div>
             <div class="menu-hamburguesa__contenido">
-                <ul style="list-style: none">
-                    <li class="menu_hamburguesa__li">Porfolio</li>
-                    <li class="menu_hamburguesa__li">Servicios</li>
-                    <li class="menu_hamburguesa__li">Contacto</li>
-                </ul>
+                <nav class="menu__hamburguesa-nav">
+                    <a class="menu_hamburguesa__li" href="portfolio.html">Portafolio</a>
+                    <a class="menu_hamburguesa__li" href="servicios.html">Servicios</a>
+                    <a class="menu_hamburguesa__li" href="contacto.html">Contacto</a>
+                </nav>
             </div>
         </div>
     </div>
     <!-- menu hamburguesa -->
 
     <header class="bienvenida__header">
-        <h2 class="bienvenida__header-logo">EUGENIO</h2>   
+        <a class="bienvenida__header-logo" href="index.html">EUGENIO</a>   
         <img src="img/hamburguesa.png" class="bienvenida__header-menu">
+        
         <div class="bienvenida__barra-lateral">
-            <ul class="bienvenida__barra-lateral-ul" style="list-style: none">
-                <li class="bienvenida__barra-lateral-li">Portfolio</li>
-                <li class="bienvenida__barra-lateral-li">Servicios</li>
-                <li class="bienvenida__barra-lateral-li">Contacto</li>
-            </ul>
+                
+            <nav class="bienvenida__barra-lateral-ul">
+                <a class="bienvenida__barra-lateral-a" href="portfolio.html">Portafolio</a>
+                <a class="bienvenida__barra-lateral-a" href="servicios.html">Servicios</a>
+                <a class="bienvenida__barra-lateral-a" href="contacto.html">Contacto</a>
+            </nav>
         </div>
     </header>
-    
-    
+
+    <div class="bienvenida__saludo"></div>
 </section>
     `;
 

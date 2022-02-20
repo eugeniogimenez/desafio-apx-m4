@@ -4,7 +4,8 @@ function mostrarFooter(params) {
   footerJs.innerHTML = `
     <section class="footer">
         <div class="footer__marca">
-            <h2 class="footer__marca-h2">EUGENIO</h2>
+            <a class="footer__marca-h2" href="index.html">EUGENIO</a>  
+            
         </div>
         <div class="footer__redes">
             <div class="footer__redes-caja">
@@ -25,3 +26,4 @@ function mostrarFooter(params) {
 
   params.appendChild(footerJs);
 }
+{/* <h2 class="footer__marca-h2">EUGENIO</h2> */}

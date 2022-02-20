@@ -1,0 +1,33 @@
+body {
+    
+    background-image: url('../img/rectangulo-form.png');
+    
+  }
+  
+  .bienvenida {
+    height: 72px;
+    background-image: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bienvenida {
+      height: auto;
+      
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .bienvenida__saludo{
+      display: none;
+    }
+  }
+
+
+  /*  */
+.form{
+    
+    
+    background:none;
+    
+}
+
